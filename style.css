@@ -1,0 +1,705 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+}
+.nav .search{
+    border: 2px solid rgb(217, 217, 217);
+    width: 150px;
+    height: 30px;
+}
+.search p{
+    color: rgb(117, 117, 117);
+    font-family: sans-serif;
+    padding: 5px;
+    cursor: pointer;
+}
+.icon1{
+    font-size: 15px;
+    float: right;
+}
+.icon2{
+   font-size: 30px;
+   cursor: pointer;
+}
+.container1{
+    height: 100vh;
+    position: relative;
+}
+.container1 .black{
+    background-color: rgb(41, 41, 41);
+    height: 40%;
+}
+.img1 img{
+    width: 50%;
+    height: 55%;
+    position: absolute;
+    top: 0%;
+    left: 22%;
+    z-index: 1;
+}
+.container1 .orange{
+    background-color: rgb(225, 131, 1);
+    width: 48%;
+    height: 50%;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    /* z-index: 2; */
+}
+.white{
+    background-color: white;
+    /* border: 2px solid black; */
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    z-index: 3;
+}
+.white img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    left: 23%;
+    z-index: 3;
+}
+.white P{
+    margin-top: 130px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.white2{
+    background-color: white;
+    /* border: 2px solid black; */
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    z-index: 3;
+}
+.white2 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    left: 23%;
+}
+.white2 p{
+    margin-top: 130px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.white3{
+    background-color: white;
+    /* border: 2px solid black; */
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    z-index: 3;
+}
+.white3 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    left: 23%;
+}
+.white3 p{
+    margin-top: 130px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.container1 i{
+    position: absolute;
+    top:82%;
+    left: 45%;
+}
+.fp{
+    border-bottom: 2px solid rgb(225, 131, 1);
+}
+.container2{
+    position: relative;
+    height: 100vh;
+}
+.container2 h1{
+    font-family: sans-serif;
+    font-weight: 900;
+    position: absolute;
+    left: 26%;
+}
+.container2 p{
+    width: 300px;
+    position: absolute;
+    left: 50%;
+}
+.container2 i{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+}
+.btn1{
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    padding: 10px;
+    border: none;
+    background-color:rgb(225, 131, 1) ;
+    color: white;
+    width: 150px;
+    cursor: pointer;
+}
+.container2 img{
+    width: 600px;
+    height: 350px;
+    position: absolute;
+    top: 34%;
+    left: 27%;
+    z-index: 2;
+}
+.container2 .orange2{
+    background-color:rgb(225, 131, 1) ;
+    width: 770px;
+    height: 200px;
+    position: absolute;
+    top: 40%;
+    left: 21%;
+}
+.container3{
+    height:400px;
+    width:100%;
+    position: relative;
+}
+.container3::before{
+    content: "";
+    position: absolute;
+    height:500px;
+    width:100%;;
+    background: url(./dfsdfdf-min.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: brightness(50%);
+    /* filter: blur(3px); */
+}
+.container3 h1{
+    color: white;
+    font-family: sans-serif;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    font-weight: 900;
+}
+.cart1{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 40%;
+    left: 18%;
+    color: rgb(212, 212, 212);
+    text-align: center;
+    font-family: sans-serif;
+}
+.container3 h3{
+    padding: 20px;
+}
+.cart1 .btn2{
+    background-color:rgb(225, 131, 1) ;
+    color: white;
+    width: 150px;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid rgb(225, 131, 1);
+    cursor: pointer;
+}
+.cart2{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 40%;
+    left: 34%;
+    color: rgb(212, 212, 212);
+    text-align: center;
+    font-family: sans-serif;
+}
+.cart2 h3{
+    padding: 20px;
+}
+.cart2 .btn2{
+    background-color:rgb(225, 131, 1) ;
+    color: white;
+    width: 150px;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid rgb(225, 131, 1);
+    cursor: pointer;
+}
+.cart3{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    color: rgb(212, 212, 212);
+    text-align: center;
+    font-family: sans-serif;
+}
+.cart3 h3{
+    padding: 20px;
+}
+.cart3 .btn2{
+    background-color:rgb(225, 131, 1) ;
+    color: white;
+    width: 150px;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid rgb(225, 131, 1);
+    cursor: pointer;
+}
+.cart4{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 40%;
+    left: 66%;
+    color: rgb(212, 212, 212);
+    text-align: center;
+    font-family: sans-serif;
+}
+.cart4 h3{
+    padding: 20px;
+}
+.cart4 .btn2{
+    background-color:rgb(225, 131, 1) ;
+    color: white;
+    width: 150px;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid rgb(225, 131, 1);
+    cursor: pointer;
+}
+.container3 i{
+    position: absolute;
+    top: 110%;
+    color: white;
+    left: 44%;
+}
+.fpp{
+   border-bottom: 1px solid white;
+}
+.container4{
+    margin-top: 95px;
+    background-color: rgb(225, 225, 225);
+    height: 100vh;
+    position: relative;
+}
+.container4 h1{
+    font-family: sans-serif;
+    font-weight: 900;
+    position: absolute;
+    top: 5%;
+    left: 20%;
+}
+.orangee{
+    width: 90px;
+    height: 10px;
+    background-color: rgb(225, 131, 1);
+    position: absolute;
+    left: 20%;
+    top: 13%;
+}
+.carts1{
+    background-color: white;
+    width: 750px;
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    padding: 20px;
+    font-family: sans-serif;
+    border-left: 20px solid  rgb(225, 131, 1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+.carts1 p{
+    color: rgb(103, 103, 103);
+    margin-top: 10px;
+}
+.carts2{
+    background-color: white;
+    width: 750px;
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 47%;
+    left: 20%;
+    padding: 20px;
+    font-family: sans-serif;
+    border-left: 20px solid  rgb(225, 131, 1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+.carts2 p{
+    color: rgb(103, 103, 103);
+    margin-top: 10px;
+}
+.carts3{
+    background-color: white;
+    width: 750px;
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 71%;
+    left: 20%;
+    padding: 20px;
+    font-family: sans-serif;
+    border-left: 20px solid  rgb(225, 131, 1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+.carts3 p{
+    color: rgb(103, 103, 103);
+    margin-top: 10px;
+}
+.container5{
+    position: relative;
+    height: 100vh;
+    /* border: 2px solid black; */
+}
+.container5 .size{
+    width: 300px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 5%;
+    left: 24%;
+}
+.size p{
+    margin-top: 10px;
+}
+.image5 img{
+   width: 160px;
+   height: 160px;
+   border-radius: 50%;
+   border: 5px solid  rgb(225, 131, 1);
+   position: absolute;
+   top: 5%;
+   left:65%;
+}
+.img6 img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 5px solid  rgb(225, 131, 1);
+    position: absolute;
+    top:35%;
+    left:22%;
+}
+.container5 .size2{
+    width: 300px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 35%;
+    left: 55%;
+}
+.size2 p{
+    margin-top: 10px;
+}
+p .don{
+    border-bottom: 2px solid  rgb(225, 131, 1);
+}
+.img7 img{
+    width: 700px;
+    height: 351px;
+    position: absolute;
+    top: 80%;
+    left: 25%;
+    z-index: 3;
+}
+.orange3{
+    background-color:  rgb(225, 131, 1);
+    width: 690px;
+    height: 320px;
+    position: absolute;
+    top: 73%;
+    left: 20%;
+    z-index: 2;
+}
+.container6{
+    background-color: rgb(225, 225, 225);
+    height: 230vh;
+    position: relative;
+}
+.about{
+    width: 200px;
+    height: 150px;
+    background-color:  rgb(225, 131, 1);
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    z-index: 4;
+}
+.about h1{
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 55px;
+    font-weight: 800;
+}
+.backw{
+    width: 610px;
+    height: 150px;
+    position: absolute;
+    top: 15%;
+    left: 34%;
+    background-color: white;
+    z-index: 4;
+    font-family: sans-serif;
+    padding: 20px;
+}
+.lal{
+    text-decoration: underline;
+}
+.parag{
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    top: 30%;
+    left: 22%;
+    font-family: sans-serif;
+}
+.short{
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    font-family: sans-serif;
+    font-weight: 900;
+    border-top: 10px solid rgb(225, 131, 1);
+}
+.short h3{
+    margin-top: 30px;
+}
+.backwh{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 57%;
+    left: 22%;
+    background-color: white;
+    font-family: sans-serif;
+    z-index: 2;
+}
+.backwh h3{
+    font-weight: 900;
+    padding: 15px;
+    margin-top: 10px;
+}
+.backwh p{
+    padding: 15px;
+}
+.oran{
+    background-color: rgb(225, 131, 1);
+    width: 360px;
+    height: 642px;
+    position: absolute;
+    top: 54%;
+    left: 34%;
+}
+.img8 img{
+    width: 610px;
+    height: 350px;
+    position: absolute;
+    top: 60%;
+    left: 29%;
+}
+.box1{
+    background-color: white;
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    text-align: center;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+.box1 h3{
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+.box1 .icoon1{
+    font-size: 40px;
+    color: orange;
+    background-color: rgb(228, 228, 228);
+    border-radius: 50%;
+}
+.box2{
+    background-color: white;
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top: 72%;
+    left: 63%;
+    text-align: center;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+.box2 h3{
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+.box2 .icoon2{
+    font-size: 40px;
+    color: orange;
+    background-color: rgb(228, 228, 228);
+    border-radius: 50%;
+}
+.box3{
+    background-color: white;
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    text-align: center;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+.box3 h3{
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+.box3 .icoon3{
+    font-size: 40px;
+    color: orange;
+    background-color: rgb(228, 228, 228);
+    border-radius: 50%;
+}
+.box4{
+    background-color: white;
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top: 0%;
+    left: 110%;
+    text-align: center;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+.box4 h3{
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+.box4 .icoon4{
+    font-size: 40px;
+    color: orange;
+    background-color: rgb(228, 228, 228);
+    border-radius: 50%;
+}
+.container7{
+    position: relative;
+    height: 60vh;
+    /* border: 2px solid black; */
+}
+.container7 h3{
+    font-family: sans-serif;
+    position: absolute;
+    top: 10%;
+    left: 22%;
+    font-weight: 800;
+}
+.container7 p{
+    font-family: sans-serif;
+    position: absolute;
+    top: 20%;
+    left: 22%;
+    color: rgb(107, 107, 107);
+}
+.container7 .he{
+    font-weight: 900;
+    font-family: sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 22%;
+}
+.iconss{
+    font-size: 30px;
+    position: absolute;
+    top: 60%;
+    left: 22%;
+    cursor: pointer;
+}
+.container7 .pure{
+    position: absolute;
+    top: 75%;
+}
+.form{
+    width: 400px;
+    height: 260px;
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 10%;
+    left: 50%;
+}
+.form h3{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.first{
+    background-color: rgb(227, 226, 226);
+    border: none;
+    width: 390px;
+    height: 30px;
+    margin-top: 40px;
+    padding: 10px;
+}
+.third{
+    background-color: rgb(227, 226, 226);
+    border: none;
+    width: 390px;
+    height: 30px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.second{
+    background-color: rgb(227, 226, 226);
+    border: none;
+    width: 390px;
+    height: 70px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.sub{
+    background-color: rgb(225, 131, 1);
+    width: 390px;
+    height: 40px;  
+    color: white;
+    border: 2px solid rgb(225, 131, 1);
+    margin-top: 10px;
+    cursor: pointer;
+}
+.footer{
+    background-color: rgb(46, 46, 46);
+    height: 120px;
+}
+.footer p{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.footer .poree{
+    color: rgb(115, 115, 194);
+    text-decoration: underline;
+}
+.footer .foot{
+    color: white;
+    text-decoration: none;
+}
+
+/* END */
+
+
+
